@@ -8,7 +8,7 @@ $ pip install requests mechanize
 
 $ pip install rich bs4
 
-$ git clone https://github.com/1708194/1708194 
+$ git clone https://github.com/Iky-HD/CrAck 
 
 $ cd 1708194
 
