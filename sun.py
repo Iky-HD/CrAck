@@ -136,7 +136,7 @@ def banner():
 \t  |  __'.[ `/'`\]`'_\ : [_   ] [_   ]/ /__\\[ `/'`\] 
 \t _| |__) || |    // | |, .' /_  .' /_| \__., | |     	
 \t|_______/[___]   \'-;__/[_____][_____]'.__.'[___]    	
-			{m}•{k}•{h}•{sir} Author : Alvino_Adijaya {x}{m}•{k}•{h}•{x}''')
+			{m}•{k}•{h}•{sir} Author : SundaPride {x}{m}•{k}•{h}•{x}''')
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
 	try:
@@ -201,24 +201,24 @@ def menu(id):
 	print('>> 4. Crack File	')
 	print('>> 5. Hasil Crack  ')
 	print('>> 0. Keluar       ')
-	_____alvino__adijaya_____ = input('\n>> Pilih : ')
-	if _____alvino__adijaya_____ in ['1']:
+	_____sunda__pride_____ = input('\n>> Pilih : ')
+	if _____sunda__pride_____ in ['1']:
 		dump_massal()
-	elif _____alvino__adijaya_____ in ['2']:
+	elif _____sunda__pride_____ in ['2']:
 		dump_follower()
-	elif _____alvino__adijaya_____ in ['3']:
+	elif _____sunda__pride_____ in ['3']:
 		error()
-	elif _____alvino__adijaya_____ in ['4']:
+	elif _____sunda__pride_____ in ['4']:
 		crack_file()
-	elif _____alvino__adijaya_____ in ['5']:
+	elif _____sunda__pride_____ in ['5']:
 		result()
-	elif _____alvino__adijaya_____ in ['0']:
+	elif _____sunda__pride_____ in ['0']:
 		os.system('rm -rf .token.txt')
 		os.system('rm -rf .cookie.txt')
 		print('>> Sukses Logout+Hapus Kukis ')
 		exit()
 	else:
-		print('>> Pilih Yang Bener Asu ')
+		print('>> Pilih Yang Bener Kontol ')
 		back()
 def error():
 	print(f'{k}>> Maaf Fitur Ini Masih Di Perbaiki {x}')
