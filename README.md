@@ -10,7 +10,7 @@ $ pip install rich bs4
 
 $ git clone https://github.com/Iky-HD/CrAck 
 
-$ cd 1708194
+$ cd CrAck
 
 $ ls
 
