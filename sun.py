@@ -167,7 +167,7 @@ def login_lagi334():
 		banner()
 		cetak(nel('\t©©© Saran Ektensi : [green]Cookiedough[white] ©©©'))
 		asu = random.choice([m,k,h,b,u])
-		cookie=input(f'  [{h}•{x}] Masukkan Cookies :{asu} ')
+		cookie=input(f'  [{h}•{x}] Masukkan Cookies Lu Kontol:{asu} ')
 		cookies = {'cookie':cookie}
 		url = 'https://www.facebook.com/adsmanager/manage/campaigns'
 		req = ses.get(url,cookies=cookies)
@@ -182,7 +182,7 @@ def login_lagi334():
 	except Exception as e:
 		os.system("rm -f .token.txt")
 		os.system("rm -f .cok.txt")
-		print(f'  %s[%sx%s]%s LOGIN GAGAL.....CEK TUMBAL LUU NGAB !!%s'%(x,k,x,m,x))
+		print(f'  %s[%sx%s]%s LOGIN GAGAL.....CEK TUMBAL LUU KONTOLL !!%s'%(x,k,x,m,x))
 		exit()
 #------------------[ BAGIAN-MENU ]----------------#
 def menu(id):
@@ -196,7 +196,7 @@ def menu(id):
 	os.system('clear')
 	banner()
 	ip = requests.get("https://api.ipify.org").text
-	cetak(nel('\tSelamat datang ngentod '))
+	cetak(nel('\tSelamat datang anak dajal '))
 	print(f'>> Your Idz : {id}')
 	print(f'>> Your Ip  : {ip}')
 	print('')
